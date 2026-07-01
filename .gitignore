@@ -1,0 +1,9 @@
+bin/
+obj/
+*.user
+*.vs
+*.suo
+*.db
+*.mdf
+*.ldf
+LocalSupermarketDb.*
