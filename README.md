@@ -90,8 +90,7 @@ git init
 git add .
 git commit -m "Initial supermarket system setup"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/LocalSupermarketManagementSystem.git
+git remote add origin https://github.com/kapilnotfound/LocalSupermarketManagementSystem.git
 git push -u origin main
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username.
