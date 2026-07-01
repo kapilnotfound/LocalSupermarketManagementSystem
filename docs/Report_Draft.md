@@ -3,9 +3,9 @@
 ## Cover page
 
 Project title: Local Supermarket Management System for Small Shops
-Student name: [Your Name]
-Module: [Your Module]
-Date: [Submission Date]
+Student name: [Kapil Pooniya]
+Module: [CST2550 Software Engineering Management and Development]
+Date: [4 july 2026]
 
 ## Introduction
 
