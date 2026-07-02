@@ -115,13 +115,17 @@ namespace SupermarketApp.Services
             return _context.Products.FirstOrDefault(p => p.Barcode == barcode);
         }
 
-        public Product SearchByName(string title)
+       public Product? SearchProductByName(string title)
         {
-            var product = _nameIndex.SearchByName(title);
-            if (product != null)
-                return product;
+            title = title.Trim().ToLower();
 
-            return _context.Products.FirstOrDefault(p => p.Title.Equals(title, StringComparison.OrdinalIgnoreCase));
+            return _context.Products
+                .FirstOrDefault(p => p.Title.ToLower() == title);
+        }
+
+        public Product? SearchByName(string title)
+        {
+            return SearchProductByName(title);
         }
     }
 }
