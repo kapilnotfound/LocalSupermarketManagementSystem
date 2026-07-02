@@ -53,7 +53,7 @@ When the application runs, the following menu is displayed:
 - SQL Server LocalDB
 - Entity Framework Core
 - xUnit
-- Visual Studio Code
+- Microsoft Visual Studio
 - Git and GitHub
 
 ## Custom Data Structures Used
@@ -99,7 +99,7 @@ To run this project, the following software is required:
 
 - Windows operating system
 - .NET SDK 10.0 or later
-- Visual Studio Code or Visual Studio
+- Microsoft Visual Studio
 - SQL Server LocalDB
 - Git
 
@@ -148,7 +148,7 @@ sqlcmd -S "(localdb)\MSSQLLocalDB" -i database\SeedData.sql
 
 ## How to Build the Project
 
-Open the project root folder in VS Code or Visual Studio.
+Open the project root folder in Microsoft Visual Studio or Visual Studio.
 
 Run this command from the project root:
 
@@ -283,3 +283,4 @@ Possible future improvements include:
 ## Conclusion
 
 This project demonstrates a working local supermarket management system using C# .NET, SQL Server LocalDB, Entity Framework Core, custom data structures, and unit testing. It supports key small-shop operations such as product management, supplier management, stock updates, searching, sales recording, and report generation.
+
