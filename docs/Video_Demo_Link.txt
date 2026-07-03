@@ -1,0 +1,8 @@
+Video Demonstration Link:
+https://drive.google.com/file/d/1JQPtXOoBETjumatZvsAn7VJIh2PiBaYM/view?usp=sharing
+
+GitHub Repository:
+https://github.com/kapilnotfound/LocalSupermarketManagementSystem
+
+Note:
+The video file is also included in docs/Video. If GitHub cannot preview the video because of file size, please use the Google Drive link above.
